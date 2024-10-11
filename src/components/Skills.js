@@ -38,19 +38,15 @@ export const Skills = () => {
                         Here are some of the skills I have developed over the years:
                         <p>
                             <ul>
-                                <li><strong>Languages:</strong> C, Java, Python, C++, JavaScript, HTML, CSS, C#, XML
-                                </li>
-                                <li><strong>Technologies:</strong> Spring Boot, Kubernetes, Firebase, MySQL, React,
+                                <strong>Languages:</strong> C, Java, Python, C++, JavaScript, HTML, CSS, C#, XML
+                                <br/><strong>Technologies:</strong> Spring Boot, Kubernetes, Firebase, MySQL, React,
                                     Node.js, PostgreSQL, Docker
-                                </li>
-                                <li><strong>Tools:</strong> Git, GitHub, JIRA, Confluence, Maven, JUnit, Postman</li>
-                                <li><strong>Methodologies:</strong> Agile, Test-Driven Development (TDD),
-                                    Object-Oriented Programming (OOP), Microservices
-                                </li>
-                                <li><strong>Platforms:</strong> Windows, Linux, Google Cloud Platform (GCP)</li>
-                                <li><strong>Core Areas:</strong> API Development, Software Design, Problem Solving,
+                                <strong>Tools:</strong> Git, GitHub, JIRA, Confluence, Maven, JUnit, Postman<br/>
+                                <strong>Methodologies:</strong> Agile, Test-Driven Development (TDD),
+                                    Object-Oriented Programming (OOP), Microservices<br/>
+                                <strong>Platforms:</strong> Windows, Linux, Google Cloud Platform (GCP)<br/>
+                                <strong>Core Areas:</strong> API Development, Software Design, Problem Solving,
                                     Software Architecture
-                                </li>
                             </ul>
                         </p>
                         <Carousel responsive={responsive} infinite={true}
