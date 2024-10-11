@@ -11,14 +11,15 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
+      title: "EasyBus",
       description: "Design & Development",
       imgUrl: projImg1,
+      link : "www.google.com",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Personal Finance Tracker | C#, .NET, MongoDB\n",
+      description: "Developed a full-stack application for managing personal finances, including income, expenses, and budgeting, with features for categorizing transactions and generating financial reports.Implemented user authentication and data visualization, using MongoDB for secure and scalable data storage, and providing users with insights into their spending patterns and financial goals.\",",
+      imgUrl: projImg1,
     },
     {
       title: "Business Startup",

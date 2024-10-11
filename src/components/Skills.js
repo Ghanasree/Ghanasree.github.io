@@ -35,22 +35,40 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                        Here are some of the skills I have developed over the years:
+                        <p>
+                            <ul>
+                                <li><strong>Languages:</strong> C, Java, Python, C++, JavaScript, HTML, CSS, C#, XML
+                                </li>
+                                <li><strong>Technologies:</strong> Spring Boot, Kubernetes, Firebase, MySQL, React,
+                                    Node.js, PostgreSQL, Docker
+                                </li>
+                                <li><strong>Tools:</strong> Git, GitHub, JIRA, Confluence, Maven, JUnit, Postman</li>
+                                <li><strong>Methodologies:</strong> Agile, Test-Driven Development (TDD),
+                                    Object-Oriented Programming (OOP), Microservices
+                                </li>
+                                <li><strong>Platforms:</strong> Windows, Linux, Google Cloud Platform (GCP)</li>
+                                <li><strong>Core Areas:</strong> API Development, Software Design, Problem Solving,
+                                    Software Architecture
+                                </li>
+                            </ul>
+                        </p>
+                        <Carousel responsive={responsive} infinite={true}
+                                  className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="Image"/>
                                 <h5>JAVA</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter2} alt="Image"/>
                                 <h5>Python</h5>
                             </div>
                             <div classNa me="item">
-                                <img src={meter3} alt="Image" />
+                            <img src={meter3} alt="Image"/>
                                 <h5>GoogleCloud</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="Image"/>
                                 <h5>Spring Boot</h5>
                             </div>
                         </Carousel>
@@ -58,7 +76,7 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="Image"/>
     </section>
   )
 }
